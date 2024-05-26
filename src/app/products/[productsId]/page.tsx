@@ -75,7 +75,7 @@ export default async function categories({ params: { productsId } }: Params) {
           </div>
           <div className="button">
             <a href="product.html?1">
-              <button>Buy now</button>
+              <button className="px-4 py-2 rounded-md font-medium transition-all duration-300 bg-gray-600 text-white hover:bg-red-800 hover:scale-95">Buy now</button>
             </a>
           </div>
         </div>

@@ -69,7 +69,7 @@ export default async function Home() {
           </div>
           <div className="button">
             <a href="product.html?1">
-              <button>Buy now</button>
+              <button className="px-4 py-2 rounded-md font-medium transition-all duration-300 bg-gray-600 text-white hover:bg-red-800 hover:scale-95">Buy now</button>
             </a>
           </div>
         </div>
@@ -79,6 +79,7 @@ export default async function Home() {
 
   return (
     <>
+    <div className="text-center text-3xl text-white font-bold underline underline-offset-8 pb-16 ">Our Products</div>
       <div className="flex flex-wrap justify-center py-3 gap-4">{content}</div>
     </>
   );
